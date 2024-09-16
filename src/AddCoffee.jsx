@@ -30,6 +30,7 @@ const AddCoffee = () => {
             icon: "success",
             confirmButtonText: "Cool",
           });
+          form.reset();
         }
       });
   };
@@ -104,7 +105,7 @@ const AddCoffee = () => {
               <input
                 name="category"
                 type="text"
-                placeholder="Supplier Name"
+                placeholder="category"
                 className="input input-bordered w-full"
               />
             </label>
@@ -118,7 +119,7 @@ const AddCoffee = () => {
               <input
                 name="details"
                 type="text"
-                placeholder="Supplier Name"
+                placeholder="details"
                 className="input input-bordered w-full"
               />
             </label>
