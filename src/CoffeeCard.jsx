@@ -17,10 +17,10 @@ const CoffeeCard = ({ coffee }) => {
             <div className="badge badge-outline">{supplier}</div>
             <div className="badge badge-outline">{taste}</div>
           </div>
-          <div className="btn-group mt-5">
-            <button className="btn btn-active">Button</button>
-            <button className="btn">Button</button>
-            <button className="btn">Button</button>
+          <div className="btn-group mt-5 space-x-4 text-center">
+            <button className="btn btn-active">view</button>
+            <button className="btn">edit</button>
+            <button className="btn">delete</button>
           </div>
         </div>
       </div>
