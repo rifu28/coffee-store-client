@@ -9,8 +9,17 @@ const AddCoffee = () => {
     const taste = form.taste.value;
     const category = form.category.value;
     const photo = form.photo.value;
+    const details = form.details.value;
 
-    const newCoffee = { name, quantity, supplier, taste, category, photo };
+    const newCoffee = {
+      name,
+      quantity,
+      supplier,
+      taste,
+      category,
+      photo,
+      details,
+    };
     console.log(newCoffee);
 
     fetch("http://localhost:5000/coffee", {
@@ -26,7 +35,7 @@ const AddCoffee = () => {
         if (data.insertedId) {
           Swal.fire({
             title: "Success!",
-            text: "User Added Successfully",
+            text: "Coffee Added Successfully",
             icon: "success",
             confirmButtonText: "Cool",
           });
