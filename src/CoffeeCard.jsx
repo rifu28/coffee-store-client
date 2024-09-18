@@ -54,7 +54,7 @@ const CoffeeCard = ({ coffee }) => {
           <div className="btn-group mt-5 space-x-4 text-center">
             <button className="btn">view</button>
             <Link to={`updateCoffee/${_id}`}>
-              <button className="btn">edit</button>
+              <button className="btn">Edit</button>
             </Link>
             <button onClick={() => handleDelete(_id)} className="btn">
               x
