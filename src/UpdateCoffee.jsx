@@ -52,7 +52,7 @@ const UpdateCoffee = () => {
   return (
     <div className="bg-[#F4F3F0] p-24 mb-8">
       <h2 className="text-3xl font-extrabold text-center my-5">
-        Update coffee of the : <p className="text-red-500 inline"> {name}</p>
+        Update coffee of : <p className="text-red-500 inline"> {name}</p>
       </h2>
       <form onSubmit={handleUpdateCoffee}>
         <div className="grid grid-cols-2 gap-10">
